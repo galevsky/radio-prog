@@ -1,20 +1,20 @@
 # MINI GUIDE DE PROGRAMMATION DE RADIO AVEC CHIRP
 
-*Ce guide est realise avec une radio Baofeng UV-5R pour exemple*
+*Ce guide est réalisé avec une radio Baofeng UV-5R pour exemple*
 
 
-## 1. Verification
+## 1. Vérification
 
-1.1 Verifier que votre radio est supportee par le logiciel: elle doit apparaitre dans la liste des radios sur la page https://chirp.danplanet.com/projects/chirp/wiki/Home
+1.1 Vérifier que votre radio est supportée par le logiciel: elle doit apparaître dans la liste des radios sur la page https://chirp.danplanet.com/projects/chirp/wiki/Home
 
 Si elle n'y est pas, vous devez attendre qu'elle y apparaisse, inutile d'aller plus loin avec CHIRP.
 
 
-## 2. Installation & Demarrage
+## 2. Installation & Démarrage
 
-2.1 Telecharger et installer la derniere version du logiciel de CHIRP sur la page: https://trac.chirp.danplanet.com/chirp_daily/LATEST/
-- Pour Windows, telecharger et executer le fichier installeur chirp-daily-XXXXXXXXX-installer.exe
-- Pour MacOS, telecharger et executer le fichier chirp-daily-XXXXXXXX.app.zip
+2.1 Télécharger et installer la dernière version du logiciel de CHIRP sur la page: https://trac.chirp.danplanet.com/chirp_daily/LATEST/
+- Pour Windows, télécharger et exécuter le fichier installeur chirp-daily-XXXXXXXXX-installer.exe
+- Pour MacOS, télécharger et exécuter le fichier chirp-daily-XXXXXXXX.app.zip
 - Pour Linux Ubuntu, il existe un repo:
       sudo apt-add-repository ppa:dansmith/chirp-snapshots
       sudo apt-get update
@@ -22,52 +22,52 @@ Si elle n'y est pas, vous devez attendre qu'elle y apparaisse, inutile d'aller p
 
 2.2 Lancer le programme CHIRP, vous devez n'avoir qu'un menu.
 
-2.3 Brancher votre cable USB dans un port, sans mettre de radio sur la fiche.
+2.3 Brancher votre câble USB dans un port, sans mettre de radio sur la fiche.
 
 ## 3. Sauvegarde de votre programmation actuelle
 
 3.1 Dans menu 'Radio', cliquer sur 'Download from Radio'
-Une fenetre s'ouvre et vous laisse renseigner le modele de votre radio, ainsi que le port USB a utiliser.
+Une fenêtre s'ouvre et vous laisse renseigner le modèle de votre radio, ainsi que le port USB à utiliser.
 
-![usb-settings](http://)
+![usb-settings](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/usb-settings.png)
 
-Valider, la radio clignote, les diodes sur le cable de programmation aussi si votre cable en possede, et une barre de progression 'Cloning' s'affiche indiquant la bonne communication entre la radio et le logiciel.
+Valider, la radio clignote, les diodes sur le câble de programmation aussi si votre câble en possède, et une barre de progression 'Cloning' s'affiche indiquant la bonne communication entre la radio et le logiciel.
 
-Une erreur de communication peut s'ouvrir a la place, pour corriger le probleme:
+Une erreur de communication peut s'ouvrir à la place, pour corriger le problème:
 
-- Verifier que la fiche du cable USB est bien enfoncee dans la radio, qui est allumee et sans activite (se mettre sur une frequence sans activite)
-- Verifier que vous entrez le bon modele de radio dans la fenetre
-- Re-essayer avec un port USB different dans la fenetre
-- Verifier que vous utilisez le cable de programmation qui va avec la bonne radio si vous avez plusieurs cables de programmation
+- Vérifier que la fiche du câble USB est bien enfoncée dans la radio, qui est allumée et sans activité (se mettre sur une fréquence sans activité pour les 2 canaux A et B)
+- Vérifier que vous entrez le bon modèle de radio dans la fenêtre
+- Re-essayer avec un port USB différent dans la fenêtre
+- Vérifier que vous utilisez le câble de programmation qui va avec la bonne radio si vous avez plusieurs câbles de programmation
 
-Une fois le telechargement termine, la configuration de la programmation de votre radio s'affiche.
+Une fois le téléchargement terminé, la configuration de la programmation de votre radio s'affiche.
 
 3.2 Dans le menu 'File', cliquer sur 'save' et sauver votre fichier original.
 
-*Note: ceci n'est pas obligatoire, car en general toutes les radios possedent un moyen de reseter les parametres d'usines en cas ou vous obtenez une configuration non fonctionnelle, mais mieux vaut etre prudent*
+*Note: ceci n'est pas obligatoire, car en general toutes les radios possèdent un moyen de re-seter les paramètres d'usine au cas ou vous obtenez une configuration non fonctionnelle, mais mieux vaut etre prudent*
 
 
 ## 4. Chargement de la configuration airsoft-milsim
 
-4.1 Fermer le fichier de l'etape precedente (menu 'File', cliquer 'Close')
+4.1 Fermer le fichier de l'étape précédente (menu 'File', cliquer 'Close')
 
-4.2 Ouvrir le fichier *Baofeng_UV-5R_airsoft-milsim.img* (menu 'File', cliquer 'Open' et selectionner le fichier telecharge precedemment)
+4.2 Ouvrir le fichier *Baofeng_UV-5R_airsoft-milsim.img* (menu 'File', cliquer 'Open' et sélectionner le fichier téléchargé précédemment)
 
 4.3 Personnaliser la configuration:
 
 - Dans l'onglet 'Settings'\'Others Settings', modifier le texte sur les 2 lignes  
-  Ce texte apparaitra rapidement a chaque allumage de la radio (pratique pour identifier son proprietaire par exemple)
-  ![Personnalisation](http://)
-- Dans l'onglet 'Memories', un tableur presente les 128 canaux programmables. Copier/coller une ligne est possible comme dans tout tableur, libre a vous de modifier la programmation, sont deja programmes:
+  Ce texte apparaitra rapidement à chaque allumage de la radio (pratique pour identifier son propriétaire par exemple)
+  ![Personnalisation](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/customisation.png)
+- Dans l'onglet 'Memories', un tableur présente les 128 canaux programmables. Copier/coller une ligne est possible comme dans tout tableur, libre à vous de modifier la programmation, sont déjà programmés:
     - de 001 a 069: les canaux LPD-443 sans filtrage CTCSS
-    - de 081 a 096: les canaux PMR-446 avec filtrage CTCSS (frequence de filtrage Nº4 a 77.0Hz)
+    - de 081 a 096: les canaux PMR-446 avec filtrage CTCSS (fréquence de filtrage Nº4 à 77.0Hz)
     - de 101 a 116: les canaux PMR-446 sans filtrage CTCSS
-  ![Memoires](http://)
+  ![Memoires](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/memories.png)
 
-4.4 Dans le menu 'File', cliquer sur 'save' et sauver votre nouvelle configuration personnalisee.
+4.4 Dans le menu 'File', cliquer sur 'save' et sauver votre nouvelle configuration personnalisée.
 
-4.5 Telecharger la configuration sur la radio: menu 'Radio', cliquer 'Upload To Radio'
+4.5 Télécharger la configuration sur la radio: menu 'Radio', cliquer 'Upload To Radio'
 
-Une barre de progression 'Cloning' doit apparaitre. Une fois termine, eteindre la radio, debrancher le cable de programmation de la radio, votre radio est prete a l'emploi.
+Une barre de progression 'Cloning' doit apparaître. Une fois terminé, éteindre la radio, débrancher le câble de programmation de la radio, votre radio est prête à l'emploi.
 
-*note: un message d'erreur peut arriver a la fin de la barre de progression, il se peut que ce soit juste une histoire de numero de firmware qui ne peut pas etre mis a jour depuis la configuration Baofeng_UV-5R_airsoft-milsim.img telechargee, ignorer le message, et verifier que la radio est bien programmee*
+*note: un message d'erreur peut arriver à la fin de la barre de progression, il se peut que ce soit juste une histoire de numéro de firmware qui ne peut pas être mis-à-jour depuis la configuration Baofeng_UV-5R_airsoft-milsim.img téléchargée qui contient un numéro de firmware différent, ignorer le message, et vérifier que la radio est bien programmée*
