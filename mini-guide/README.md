@@ -56,8 +56,7 @@ Une fois le téléchargement terminé, la configuration de la programmation de v
 
 4.3 Personnaliser la configuration:
 
-- Dans l'onglet 'Settings' \ 'Others Settings', modifier le texte sur les 2 lignes  
-  Ce texte apparaitra rapidement à chaque allumage de la radio (pratique pour identifier son propriétaire par exemple)
+- Dans l'onglet 'Settings' \ 'Others Settings', modifier le texte sur les 2 lignes, seuls les 7 premiers caractères seront affichés pour l'UV-5r. Ce texte apparaitra rapidement à chaque allumage de la radio (pratique pour identifier son propriétaire par exemple)
   ![Personnalisation](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/customisation.png)
 - Dans l'onglet 'Memories', un tableur présente les 128 canaux programmables. Copier/coller une ligne est possible comme dans tout tableur, libre à vous de modifier la programmation, sont déjà programmés:
     - de 001 a 069: les canaux LPD-443 sans filtrage CTCSS
