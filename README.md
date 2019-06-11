@@ -1,6 +1,6 @@
 # radio-prog
 
-Ce dépôt contient un mini-guide de programmation avec le logiciel CHIRP et un exemple de fichier de programmation prêt à utilisation pour radio Baofeng UV-5R ou UV-5R+.
+Ce dépôt contient un mini-guide de programmation avec le logiciel libre [CHIRP](https://chirp.danplanet.com/projects/chirp/wiki/Home) et un exemple de fichier de programmation prêt à utilisation pour radio Baofeng UV-5R ou UV-5R+.
 
 # Mini-guide de programmation
 
