@@ -60,7 +60,7 @@ Lorsque il y a une émission simultanée des groupes A et B :
 - le groupe B reçoit malheureusement A+B
 
 Comme vous le constatez, le filtrage CTCSS (ou "sous-canal") est tout sauf une solution idéale.
-La programmation proposée possède les 16 canaux PMR programmées avec un code CTCSS pour permettre de soulager l'utilisation des 8 premiers canaux PMR (contrainte de l'orga bien souvent), en espérant que la fréquence de filtrage soit la même pour toute la faction (à vous de pré-programmer la bonne, c.f. le guide de programmation).
+La programmation proposée ici possède quand même 16 canaux PMR programmées du canal 081 à 096 avec un code CTCSS pour permettre de soulager l'utilisation des 8 premiers canaux PMR (contrainte imposée par l'orga bien souvent), en espérant que la fréquence de filtrage soit la même pour toute la faction (à vous de pré-programmer la bonne, c.f. le guide de programmation). Si vous êtes génés en utilisant les 8 canaux PMR standards, il est souhaitable de basculer sur les 8 nouveaux canaux PMR de 09 à 16 (rares sont les radios PMR commercialisées avec ces 8 nouveaux canaux) pour les communications "longues-distances" avec un QG ou en inter-groupes, et d'utiliser une des 69 fréquences LPD-433 pour de l'intra-groupe en faible puissance. (Le LPD-433 est utilisé par les talkies-walkies des jouets pour enfants, ou encore tout systeme domestiques a communication radio, comme portail électrique etc...). Veillez toujours à ne géner personne, si vous voyez de l'activité, changer simplement de canal !
 
 +infos: http://pmr446.free.fr/index_codage_ctcss.htm
 
