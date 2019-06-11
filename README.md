@@ -71,11 +71,11 @@ La programmation proposée possède les 16 canaux PMR programmées avec un code 
 2. Déverrouiller le clavier (appui long sur le petit cadenas, touche '#') qui est verrouillé par défaut
 3. Sélectionner le canal souhaité pour le canal A:
     - en utilisant les flèches haut/bas pour cycler
-    - en tapant directement le numéro de canal (ex: pour aller sur le canal 'PMR #08' sans filtrage CTCSS, taper '1-0-8')
+    - en tapant directement le numéro de canal (ex: pour aller sur le canal 'LPD #55' sans filtrage CTCSS, taper '0-5-5')
 4. Basculer sur le canal B (bouton A/B)
 5. Sélectionner le canal souhaité pour le canal B:
     - en utilisant les flèches haut/bas pour cycler
-    - en tapant directement le numéro de canal (ex: pour aller sur le canal 'LPD #34' sans filtrage CTCSS, taper '0-3-4')
+    - en tapant directement le numéro de canal (ex: pour aller sur le canal 'PMR #07' sans filtrage CTCSS, taper '1-0-7')
 6. Attendre quelques secondes que le clavier se re-verrouille ou le faire manuellement (appui long sur le petit cadenas, touche '#'), votre radio est prête !
 
 ![usage 01](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/usage-01.jpg)
