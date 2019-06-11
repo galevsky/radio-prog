@@ -8,7 +8,7 @@ il se trouve dans le sous-répertoire ./mini-guide
 
 # Fichier de programmation
 
-Ce fichier de programmation a été fait dans un but de faciliter l'utilisation de radio pour la pratique de l'airsoft milsim:
+Ce fichier de programmation [Baofeng_UV-5R_airsoft-milsim.img](https://github.com/galevsky/radio-prog/raw/master/Baofeng_UV-5R_airsoft-milsim.img) a été fait dans un but de faciliter l'utilisation de radio pour la pratique de l'airsoft milsim:
 
 ## Amélioration de la discrétion
 
