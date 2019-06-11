@@ -44,7 +44,7 @@ certains appareils PMR sont equipés de "sous-canaux", il s'agit en fait d'une f
 Parler de "sous-canaux" est abusif: il s'agit en fait de définir -optionnellement- une fréquence de filtrage.
 Voici le principe: lorsque vous émettez en ayant configuré un code CTCSS, un signal en continu se superpose à votre communication sur une fréquence inaudible par l’homme. Le talkie-walkie qui a lui aussi sélectionné le même code CTCSS ne déclenchera la réception uniquement si il reçoit ce signal, sinon le haut-parleur reste muet. Mais le système est imparfait, exemple :
 
-Groupe A : fréquence 446,00625 – CTCSS : 88,5 Hz
+Groupe A : fréquence 446,00625 – CTCSS : 88,5 Hz  
 Groupe B : fréquence 446,00625 – CTCSS : désactivé
 
 Lorsque il y a une émission du groupe A :

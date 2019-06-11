@@ -63,6 +63,7 @@ Une fois le téléchargement terminé, la configuration de la programmation de v
     - de 001 a 069: les canaux LPD-443 sans filtrage CTCSS
     - de 081 a 096: les canaux PMR-446 avec filtrage CTCSS (fréquence de filtrage Nº4 à 77.0Hz)
     - de 101 a 116: les canaux PMR-446 sans filtrage CTCSS
+    Vous aurez probablement envie de modifier la fréquence de filtrage CTCSS sur les PMR de 81 à 96.
   ![Memoires](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/memories.png)
 
 4.4 Dans le menu 'File', cliquer sur 'save' et sauver votre nouvelle configuration personnalisée.
