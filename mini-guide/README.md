@@ -31,7 +31,7 @@ Une fenêtre s'ouvre et vous laisse renseigner le modèle de votre radio, ainsi 
 
 ![usb-settings](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/usb-settings.png)
 
-Valider, la radio clignote, les diodes sur le câble de programmation aussi si votre câble en possède, et une barre de progression 'Cloning' s'affiche indiquant la bonne communication entre la radio et le logiciel.
+Valider, une deuxième fenêtre demande de connecter la radio et l'allumer volume au maximum, re-valider, commence alors le téléchargement: la radio clignote, les diodes sur le câble de programmation aussi si votre câble en possède, et une barre de progression 'Cloning' s'affiche indiquant la bonne communication entre la radio et le logiciel.
 
 Une erreur de communication peut s'ouvrir à la place, pour corriger le problème:
 
@@ -42,16 +42,16 @@ Une erreur de communication peut s'ouvrir à la place, pour corriger le problèm
 
 Une fois le téléchargement terminé, la configuration de la programmation de votre radio s'affiche.
 
-3.2 Dans le menu 'File', cliquer sur 'save' et sauver votre fichier original.
+3.2 Dans le menu 'File', cliquer sur 'save' et enregistrer votre fichier original.
 
-*Note: ceci n'est pas obligatoire, car en general toutes les radios possèdent un moyen de re-seter les paramètres d'usine au cas ou vous obtenez une configuration non fonctionnelle, mais mieux vaut etre prudent*
+*Note: ceci n'est pas obligatoire, car en général toutes les radios possèdent un moyen de re-seter les paramètres d'usine au cas ou vous obtiendrez une configuration non fonctionnelle, mais mieux vaut etre prudent*
 
 
 ## 4. Chargement de la configuration airsoft-milsim
 
 4.1 Fermer le fichier de l'étape précédente (menu 'File', cliquer 'Close')
 
-4.2 Ouvrir le fichier *Baofeng_UV-5R_airsoft-milsim.img* (menu 'File', cliquer 'Open' et sélectionner le fichier téléchargé précédemment)
+4.2 Ouvrir le fichier *Baofeng_UV-5R_airsoft-milsim.img* (menu 'File', cliquer 'Open' et sélectionner le fichier téléchargé précédemment [ici](https://github.com/galevsky/radio-prog/raw/master/Baofeng_UV-5R_airsoft-milsim.img))
 
 4.3 Personnaliser la configuration:
 
