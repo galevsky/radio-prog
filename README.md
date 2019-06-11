@@ -76,7 +76,11 @@ La programmation proposée possède les 16 canaux PMR programmées avec un code 
 5. Sélectionner le canal souhaité pour le canal B:
     - en utilisant les flèches haut/bas pour cycler
     - en tapant directement le numéro de canal (ex: pour aller sur le canal 'LPD #34' sans filtrage CTCSS, taper '0-3-4')
-6. Attendre quelques secondes que le clavier se re-verrouille ou le faire manuellement (appui long sur le petit cadenas, touche '#')
+6. Attendre quelques secondes que le clavier se re-verrouille ou le faire manuellement (appui long sur le petit cadenas, touche '#'), votre radio est prête !
+
+![usage 01](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/usage-01.jpg)
+![usage 02](https://raw.githubusercontent.com/galevsky/radio-prog/master/mini-guide/img/usage-02.jpg)
+
 
 **Important**: *votre radio est programmée pour fonctionner sur les 2 canaux A et B en même temps !!!
 L'émission se fait sur le canal A, mais la radio déclenche en réception sur les canaux A et B !!!
