@@ -16,9 +16,10 @@ Si elle n'y est pas, vous devez attendre qu'elle y apparaisse, inutile d'aller p
 - Pour Windows, télécharger et exécuter le fichier installeur chirp-daily-XXXXXXXXX-installer.exe
 - Pour MacOS, télécharger et exécuter le fichier chirp-daily-XXXXXXXX.app.zip
 - Pour Linux Ubuntu, il existe un repo:
-      sudo apt-add-repository ppa:dansmith/chirp-snapshots
-      sudo apt-get update
-      sudo apt-get install chirp-daily
+
+      sudo apt-add-repository ppa:dansmith/chirp-snapshots  
+      sudo apt-get update  
+      sudo apt-get install chirp-daily  
 
 2.2 Lancer le programme CHIRP, vous devez n'avoir qu'un menu.
 
